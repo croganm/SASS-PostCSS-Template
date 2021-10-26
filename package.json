@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "sass:watch": "sass --watch scss:css",
+    "postcss:watch": "postcss css/*.css --dir dist/css -mw",
+    "dev": "run-p sass:watch postcss:watch"
+  },
+
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "cssnano": "^5.0.8",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.43.3"
+  }
+}
